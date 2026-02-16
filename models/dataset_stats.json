@@ -1,0 +1,11 @@
+{
+  "total_patients": 101766,
+  "readmitted_30": 11357,
+  "readmitted_30_pct": 11.16,
+  "readmitted_gt30": 35545,
+  "not_readmitted": 54864,
+  "avg_age": "[70-80)",
+  "avg_stay": 4.4,
+  "avg_medications": 16.02,
+  "avg_diagnoses": 7.42
+}

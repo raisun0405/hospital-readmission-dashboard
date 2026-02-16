@@ -89,9 +89,24 @@ with tab1:
     # Predict button
     if st.button("🔮 Predict Risk", type="primary"):
         if rf_model is not None:
-            # Create feature vector (simplified for demo)
-            # In production, this would properly encode all features
-            risk_score = np.random.uniform(0.1, 0.9)  # Placeholder
+            # Create patient data dict
+            patient_data = {
+                'age': age,
+                'gender': gender,
+                'race': race,
+                'time_in_hospital': time_in_hospital,
+                'num_lab_procedures': num_lab_procedures,
+                'num_procedures': num_procedures,
+                'num_medications': num_medications,
+                'number_outpatient': number_outpatient,
+                'number_emergency': number_emergency,
+                'number_inpatient': number_inpatient,
+                'number_diagnoses': number_diagnoses
+            }
+            
+            # Make prediction
+            from src.predict import predict_readmission_risk
+            risk_score, risk_level = predict_readmission_risk(patient_data)
             
             # Display result
             col_res1, col_res2 = st.columns(2)
