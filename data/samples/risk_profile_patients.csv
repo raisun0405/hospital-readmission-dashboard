@@ -1,0 +1,4 @@
+patient_id,age,gender,race,time_in_hospital,num_lab_procedures,num_procedures,num_medications,number_outpatient,number_emergency,number_inpatient,number_diagnoses
+LOW001,[20-30),Male,Caucasian,2,20,0,5,0,0,0,2
+MED001,[50-60),Female,African American,5,45,2,12,2,1,1,5
+HIGH001,[70-80),Female,Caucasian,10,80,4,25,5,3,2,9

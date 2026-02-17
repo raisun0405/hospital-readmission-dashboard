@@ -1,0 +1,21 @@
+patient_id,age,gender,race,time_in_hospital,num_lab_procedures,num_procedures,num_medications,number_outpatient,number_emergency,number_inpatient,number_diagnoses
+P0001,[80-90),Female,African American,3,24,3,33,5,2,4,4
+P0002,[30-40),Female,Hispanic,11,60,5,8,0,0,0,2
+P0003,[0-10),Female,Other,3,60,0,4,0,0,2,6
+P0004,[90-100),Female,African American,8,43,2,18,5,1,0,13
+P0005,[90-100),Female,Other,3,64,4,2,8,1,3,13
+P0006,[40-50),Female,Other,8,65,1,18,5,4,2,12
+P0007,[20-30),Male,Asian,1,32,0,4,0,2,5,15
+P0008,[30-40),Male,African American,11,69,1,10,0,4,5,7
+P0009,[60-70),Female,Caucasian,4,64,4,11,7,5,2,5
+P0010,[90-100),Female,Asian,7,45,4,36,6,4,5,10
+P0011,[80-90),Male,Other,5,32,1,16,4,5,5,12
+P0012,[80-90),Male,Hispanic,4,61,4,13,10,0,1,14
+P0013,[80-90),Male,Caucasian,7,85,2,25,6,2,4,15
+P0014,[30-40),Female,African American,8,27,2,34,5,0,5,5
+P0015,[20-30),Female,Caucasian,5,90,6,29,5,1,3,4
+P0016,[40-50),Female,Caucasian,5,13,2,28,6,4,0,9
+P0017,[40-50),Female,Caucasian,9,90,2,3,3,2,5,15
+P0018,[30-40),Male,Caucasian,14,63,1,10,3,0,1,13
+P0019,[90-100),Male,African American,11,20,0,36,10,2,4,15
+P0020,[60-70),Female,Asian,4,11,6,40,2,2,5,9
