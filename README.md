@@ -4,6 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/streamlit-1.31-red.svg)](https://streamlit.io)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange.svg)](https://scikit-learn.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub commits](https://img.shields.io/github/commit-activity/m/raisun0405/hospital-readmission-dashboard)](https://github.com/raisun0405/hospital-readmission-dashboard/commits)
 
 > **Predict 30-day hospital readmission risk using machine learning**
 
